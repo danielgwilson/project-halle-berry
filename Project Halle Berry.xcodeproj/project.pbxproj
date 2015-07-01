@@ -7,37 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AD8565B66C28C6E98C662D7 /* Pods_Project_Halle_Berry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224158162A08DD64E60EF7E8 /* Pods_Project_Halle_Berry.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		651EA2571B417E3A005898A9 /* HBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651EA2561B417E3A005898A9 /* HBViewController.swift */; };
+		65AF31281B442EBD0026CD35 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 65AF31271B442EBD0026CD35 /* Classes */; };
 		65DB38CE1B3D917B008A095F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DB38CD1B3D917B008A095F /* AppDelegate.swift */; };
-		65DB38D01B3D917B008A095F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DB38CF1B3D917B008A095F /* FirstViewController.swift */; };
-		65DB38D21B3D917B008A095F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DB38D11B3D917B008A095F /* SecondViewController.swift */; };
 		65DB38D51B3D917B008A095F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DB38D31B3D917B008A095F /* Main.storyboard */; };
 		65DB38D71B3D917B008A095F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DB38D61B3D917B008A095F /* Images.xcassets */; };
 		65DB38DA1B3D917B008A095F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65DB38D81B3D917B008A095F /* LaunchScreen.xib */; };
-		65DB38E61B3D917B008A095F /* Project_Halle_BerryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DB38E51B3D917B008A095F /* Project_Halle_BerryTests.swift */; };
+		65DB70C01B42DAEA001ED8E0 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DB70BF1B42DAEA001ED8E0 /* Filter.swift */; };
+		65DB70C41B42DFA5001ED8E0 /* PulseDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DB70C31B42DFA5001ED8E0 /* PulseDetector.swift */; };
+		65E157AD1B4432A200BF56BD /* Pods_Project_Halle_Berry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 224158162A08DD64E60EF7E8 /* Pods_Project_Halle_Berry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		65DB38E01B3D917B008A095F /* PBXContainerItemProxy */ = {
+		651EA2521B417D9E005898A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 65DB38C01B3D917B008A095F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 65DB38C71B3D917B008A095F;
-			remoteInfo = "Project Halle Berry";
+			containerPortal = 651EA24D1B417D9E005898A9 /* SampleHeartRateApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 885626171AAC6E6100889191;
+			remoteInfo = SampleHeartRateApp;
+		};
+		651EA2541B417D9E005898A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 651EA24D1B417D9E005898A9 /* SampleHeartRateApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 885626301AAC6E6100889191;
+			remoteInfo = SampleHeartRateAppTests;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		65E157AE1B4432A300BF56BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				65E157AD1B4432A200BF56BD /* Pods_Project_Halle_Berry.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		224158162A08DD64E60EF7E8 /* Pods_Project_Halle_Berry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_Halle_Berry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24674EF582FA9C498E8EB96B /* Pods-Project Halle Berry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project Halle Berry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Project Halle Berry/Pods-Project Halle Berry.debug.xcconfig"; sourceTree = "<group>"; };
+		651EA24D1B417D9E005898A9 /* SampleHeartRateApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SampleHeartRateApp.xcodeproj; path = ../SampleHeartRateApp/SampleHeartRateApp.xcodeproj; sourceTree = "<group>"; };
+		651EA2561B417E3A005898A9 /* HBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBViewController.swift; sourceTree = "<group>"; };
+		65AF31271B442EBD0026CD35 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		65DB38C81B3D917B008A095F /* Project Halle Berry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Halle Berry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DB38CC1B3D917B008A095F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65DB38CD1B3D917B008A095F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65DB38CF1B3D917B008A095F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		65DB38D11B3D917B008A095F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		65DB38D41B3D917B008A095F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65DB38D61B3D917B008A095F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		65DB38D91B3D917B008A095F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		65DB38DF1B3D917B008A095F /* Project Halle BerryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project Halle BerryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65DB38E41B3D917B008A095F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65DB38E51B3D917B008A095F /* Project_Halle_BerryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_Halle_BerryTests.swift; sourceTree = "<group>"; };
+		65DB38EF1B3D9527008A095F /* Project Halle Berry-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Project Halle Berry-Bridging-Header.h"; sourceTree = "<group>"; };
+		65DB70BF1B42DAEA001ED8E0 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		65DB70C31B42DFA5001ED8E0 /* PulseDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseDetector.swift; sourceTree = "<group>"; };
+		7A52D14CB57CDBAE911427EC /* Pods-Project Halle Berry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project Halle Berry.release.xcconfig"; path = "Pods/Target Support Files/Pods-Project Halle Berry/Pods-Project Halle Berry.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,25 +73,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65DB38DC1B3D917B008A095F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3AD8565B66C28C6E98C662D7 /* Pods_Project_Halle_Berry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C6550D57DC41724B7CCA532 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24674EF582FA9C498E8EB96B /* Pods-Project Halle Berry.debug.xcconfig */,
+				7A52D14CB57CDBAE911427EC /* Pods-Project Halle Berry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		378548D4C7394F92E05F1D3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65AF31271B442EBD0026CD35 /* Classes */,
+				224158162A08DD64E60EF7E8 /* Pods_Project_Halle_Berry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		651EA24E1B417D9E005898A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				651EA2531B417D9E005898A9 /* SampleHeartRateApp.app */,
+				651EA2551B417D9E005898A9 /* SampleHeartRateAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		65DB38BF1B3D917B008A095F = {
 			isa = PBXGroup;
 			children = (
+				651EA24D1B417D9E005898A9 /* SampleHeartRateApp.xcodeproj */,
 				65DB38CA1B3D917B008A095F /* Project Halle Berry */,
-				65DB38E21B3D917B008A095F /* Project Halle BerryTests */,
 				65DB38C91B3D917B008A095F /* Products */,
+				378548D4C7394F92E05F1D3F /* Frameworks */,
+				1C6550D57DC41724B7CCA532 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				65DB38C81B3D917B008A095F /* Project Halle Berry.app */,
-				65DB38DF1B3D917B008A095F /* Project Halle BerryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,12 +130,14 @@
 			isa = PBXGroup;
 			children = (
 				65DB38CD1B3D917B008A095F /* AppDelegate.swift */,
-				65DB38CF1B3D917B008A095F /* FirstViewController.swift */,
-				65DB38D11B3D917B008A095F /* SecondViewController.swift */,
+				651EA2561B417E3A005898A9 /* HBViewController.swift */,
+				65DB70C31B42DFA5001ED8E0 /* PulseDetector.swift */,
+				65DB70BF1B42DAEA001ED8E0 /* Filter.swift */,
 				65DB38D31B3D917B008A095F /* Main.storyboard */,
 				65DB38D61B3D917B008A095F /* Images.xcassets */,
 				65DB38D81B3D917B008A095F /* LaunchScreen.xib */,
 				65DB38CB1B3D917B008A095F /* Supporting Files */,
+				65DB38EF1B3D9527008A095F /* Project Halle Berry-Bridging-Header.h */,
 			);
 			path = "Project Halle Berry";
 			sourceTree = "<group>";
@@ -98,23 +150,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		65DB38E21B3D917B008A095F /* Project Halle BerryTests */ = {
-			isa = PBXGroup;
-			children = (
-				65DB38E51B3D917B008A095F /* Project_Halle_BerryTests.swift */,
-				65DB38E31B3D917B008A095F /* Supporting Files */,
-			);
-			path = "Project Halle BerryTests";
-			sourceTree = "<group>";
-		};
-		65DB38E31B3D917B008A095F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				65DB38E41B3D917B008A095F /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +157,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65DB38E91B3D917B008A095F /* Build configuration list for PBXNativeTarget "Project Halle Berry" */;
 			buildPhases = (
+				EDC49F140BD77F96EEA88AA2 /* Check Pods Manifest.lock */,
 				65DB38C41B3D917B008A095F /* Sources */,
 				65DB38C51B3D917B008A095F /* Frameworks */,
 				65DB38C61B3D917B008A095F /* Resources */,
+				2EBFF08C78F5432865B438B9 /* Copy Pods Resources */,
+				8C5E4B8F5A0E5F3C78E07355 /* Embed Pods Frameworks */,
+				65E157AE1B4432A300BF56BD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,39 +174,18 @@
 			productReference = 65DB38C81B3D917B008A095F /* Project Halle Berry.app */;
 			productType = "com.apple.product-type.application";
 		};
-		65DB38DE1B3D917B008A095F /* Project Halle BerryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65DB38EC1B3D917B008A095F /* Build configuration list for PBXNativeTarget "Project Halle BerryTests" */;
-			buildPhases = (
-				65DB38DB1B3D917B008A095F /* Sources */,
-				65DB38DC1B3D917B008A095F /* Frameworks */,
-				65DB38DD1B3D917B008A095F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				65DB38E11B3D917B008A095F /* PBXTargetDependency */,
-			);
-			name = "Project Halle BerryTests";
-			productName = "Project Halle BerryTests";
-			productReference = 65DB38DF1B3D917B008A095F /* Project Halle BerryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		65DB38C01B3D917B008A095F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Daniel G Wilson";
 				TargetAttributes = {
 					65DB38C71B3D917B008A095F = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					65DB38DE1B3D917B008A095F = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 65DB38C71B3D917B008A095F;
 					};
 				};
 			};
@@ -182,13 +200,35 @@
 			mainGroup = 65DB38BF1B3D917B008A095F;
 			productRefGroup = 65DB38C91B3D917B008A095F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 651EA24E1B417D9E005898A9 /* Products */;
+					ProjectRef = 651EA24D1B417D9E005898A9 /* SampleHeartRateApp.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				65DB38C71B3D917B008A095F /* Project Halle Berry */,
-				65DB38DE1B3D917B008A095F /* Project Halle BerryTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		651EA2531B417D9E005898A9 /* SampleHeartRateApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SampleHeartRateApp.app;
+			remoteRef = 651EA2521B417D9E005898A9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		651EA2551B417D9E005898A9 /* SampleHeartRateAppTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SampleHeartRateAppTests.xctest;
+			remoteRef = 651EA2541B417D9E005898A9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		65DB38C61B3D917B008A095F /* Resources */ = {
@@ -196,48 +236,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				65DB38D51B3D917B008A095F /* Main.storyboard in Resources */,
+				65AF31281B442EBD0026CD35 /* Classes in Resources */,
 				65DB38DA1B3D917B008A095F /* LaunchScreen.xib in Resources */,
 				65DB38D71B3D917B008A095F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65DB38DD1B3D917B008A095F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EBFF08C78F5432865B438B9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Project Halle Berry/Pods-Project Halle Berry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		8C5E4B8F5A0E5F3C78E07355 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Project Halle Berry/Pods-Project Halle Berry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC49F140BD77F96EEA88AA2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		65DB38C41B3D917B008A095F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65DB38D21B3D917B008A095F /* SecondViewController.swift in Sources */,
+				651EA2571B417E3A005898A9 /* HBViewController.swift in Sources */,
+				65DB70C41B42DFA5001ED8E0 /* PulseDetector.swift in Sources */,
+				65DB70C01B42DAEA001ED8E0 /* Filter.swift in Sources */,
 				65DB38CE1B3D917B008A095F /* AppDelegate.swift in Sources */,
-				65DB38D01B3D917B008A095F /* FirstViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65DB38DB1B3D917B008A095F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65DB38E61B3D917B008A095F /* Project_Halle_BerryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		65DB38E11B3D917B008A095F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 65DB38C71B3D917B008A095F /* Project Halle Berry */;
-			targetProxy = 65DB38E01B3D917B008A095F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		65DB38D31B3D917B008A095F /* Main.storyboard */ = {
@@ -280,6 +347,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -342,55 +410,30 @@
 		};
 		65DB38EA1B3D917B008A095F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24674EF582FA9C498E8EB96B /* Pods-Project Halle Berry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Project Halle Berry/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "danielgwilson.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Project Halle Berry/Project Halle Berry-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		65DB38EB1B3D917B008A095F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A52D14CB57CDBAE911427EC /* Pods-Project Halle Berry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Project Halle Berry/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "danielgwilson.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		65DB38ED1B3D917B008A095F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Project Halle BerryTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project Halle Berry.app/Project Halle Berry";
-			};
-			name = Debug;
-		};
-		65DB38EE1B3D917B008A095F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Project Halle BerryTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project Halle Berry.app/Project Halle Berry";
+				SWIFT_OBJC_BRIDGING_HEADER = "Project Halle Berry/Project Halle Berry-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -413,14 +456,7 @@
 				65DB38EB1B3D917B008A095F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		65DB38EC1B3D917B008A095F /* Build configuration list for PBXNativeTarget "Project Halle BerryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				65DB38ED1B3D917B008A095F /* Debug */,
-				65DB38EE1B3D917B008A095F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

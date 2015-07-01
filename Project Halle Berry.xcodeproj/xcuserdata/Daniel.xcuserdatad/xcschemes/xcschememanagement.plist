@@ -9,9 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>65AF30EF1B442AF40026CD35</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>65AF31021B442AF40026CD35</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>65AF310D1B442AF40026CD35</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>65DB38C71B3D917B008A095F</key>
 		<dict>
 			<key>primary</key>
